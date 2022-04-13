@@ -43,7 +43,7 @@ if __name__ == "__main__":
             continue
 
         # 이력 정보가 확인되면 출력
-        print "계정 :", account
+        print ("계정 :", account)
         for h in history_list :
-            print "\t%s\t%s" % h
-        print "-" * 70
+            print ("\t%s\t%s" % h)
+        print ("-" * 70)
