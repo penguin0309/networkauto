@@ -19,7 +19,7 @@ def history_by_date(history_list, start_date, end_date) :
 
 if __name__ == "__main__":
     # 사용자에게 시간대를 입력받습니다.
-    (print "어느 시간에 실행한 명령어를 조회하시겠습니까?")
+    print ("어느 시간에 실행한 명령어를 조회하시겠습니까?")
     input_date = input("년-월-일 시각을 입력하세요(예, 2016-08-11 14) :")
     input_date = input_date + ":00:00"
     
